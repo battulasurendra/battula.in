@@ -1,2 +1,2 @@
 # battula.in
-Personal website of a Senior UI Developer.
+Senior UI Developer with 5+ years experience.
