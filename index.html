@@ -13,28 +13,35 @@
     <link rel="manifest" href="/assets/favicons/site.webmanifest">
 
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body>
     <div class="container">
-        <div class="row my-2 my-sm-0">
+        <div class="row my-2 my-sm-0 gx-0">
             <div class="col-12 col-md-6 col-lg-5 col-xl-4 col-xxl-3">
-                <div id="profile-card" class="card">
+                <div id="profile-card" class="card card-neumorphism">
                     <div class="card-body">
-                        <h2>Surendra Battula</h2>
+                        <h2 id="name">Surendra Battula</h2>
                         <h6 id="designation">Senior UI Developer</h6>
-                        <h6>B.Tech, JNTU Kakinada, AP.</h6>
-                        <div id="contact-details" class="my-3">
-                            <a class="btn-link my-1 d-inline-block"
-                                href="mailto:battulasurendra407@gmail.com">battulasurendra407@gmail.com</a>
-                            <a class="btn-link my-1 d-inline-block" href="tel:+91 9704670707">+91 9704670707</a>
-                            <a class="btn-link my-1 d-inline-block" href="https://linkedin.com/in/surendra-battula"
-                                target="_blank">linkedin.com/in/surendra-battula/</a>
-                        </div>
+                        <h6 id="education"><i class="fas fa-graduation-cap fa-fw me-1"></i>B.Tech, JNTU Kakinada, AP.</h6>
+                        <h6 id="location"><i class="fas fa-map-marker-alt fa-fw me-1"></i>Hyderabad</h6>
+                        <p id="summary" class="small text-muted">
+                            I am an experienced passionate developer with proven technical skills who strives for perfection with strong focus, responsibility, hardworking and to utilize the experience and skills obtained in the best possible way for achieving the company’s goal.
+                        </p>
                     </div>
                 </div>
-                <div id="primary-skills" class="card">
+                        
+                <div id="contact-details" class="card card-neumorphism">
+                    <h5 class="card-header">Contact Details</h5>
+                    <div class="card-body">
+                        <a class="btn-link my-1 d-inline-block text-decoration-none"
+                            href="mailto:battulasurendra407@gmail.com"><i class="fas fa-at fa-fw me-1"></i> battulasurendra407@gmail.com</a>
+                        <a class="btn-link my-1 d-inline-block text-decoration-none" href="tel:+919704670707"><i class="fas fa-phone-alt fa-fw me-1"></i>+91 9704670707</a>
+                        <a class="btn-link my-1 d-inline-block text-decoration-none" href="https://linkedin.com/in/surendra-battula"
+                            target="_blank"><i class="fab fa-linkedin fa-fw me-1"></i> linkedin.com/in/surendra-battula/</a>
+                    </div>
+                </div>
+                <div id="primary-skills" class="card card-neumorphism">
                     <h5 class="card-header">Primary Skills</h5>
                     <div class="card-body">
                         <div class="skills-wrapper my-3">
@@ -48,7 +55,7 @@
                             <div class="skill-group my-3">
                                 <h6 class="skill">React Native</h6>
                                 <div class="progress" style="height: 0.5rem;">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65"
                                         aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
@@ -62,7 +69,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="secondary-skills" class="card">
+                <div id="secondary-skills" class="card card-neumorphism">
                     <h5 class="card-header">Technical Skills</h5>
                     <div class="card-body">
                         <div class="skills-wrapper my-3">
@@ -104,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="career-footprints" class="card">
+                <div id="career-footprints" class="card card-neumorphism">
                     <h5 class="card-header">Career Footprints</h5>
                     <div class="card-body">
                         <div class="">
@@ -139,55 +146,32 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-7 col-xl-8 col-xxl-9">
-                <div id="summary" class="card">
-                    <div class="card-body">
-                        I am an experienced passionate developer with proven technical skills who strives for
-                        perfection with strong focus, responsibility, hardworking and to utilize the experience and
-                        skills obtained in the best possible way for achieving the company’s goal.
-                    </div>
-                </div>
-                <div id="overview" class="card">
+                <div id="overview" class="card card-neumorphism">
                     <h5 class="card-header">Overview</h5>
                     <div class="card-body">
-                        <ul class="list-group list-group-flush my-3">
-                            <li class="list-group-item py-1">Over 5 years of successful professional experience in
-                                Web
-                                Application Development</li>
-                            <li class="list-group-item py-1">Over 4 years of solid programming experience on LAMP
-                                stack
-                                (Linux Apache Mysql Php)</li>
-                            <li class="list-group-item py-1">Over 3+ years of development experience in Angular
-                                programming.
-                            </li>
-                            <li class="list-group-item py-1">Over 3 years of solid work experience on Wordpress
-                                framework
-                            </li>
+                        <ul class="list-group list-group-dot my-3">
+                            <li class="list-group-item py-1">Over 5 years of successful professional experience in Web Application Development</li>
+                            <li class="list-group-item py-1">Over 4 years of solid programming experience on LAMP stack (Linux Apache Mysql Php)</li>
+                            <li class="list-group-item py-1">Over 3+ years of development experience in Angular programming</li>
+                            <li class="list-group-item py-1">Over 3 years of solid work experience on Wordpress framework</li>
                         </ul>
-                        <ul class="list-group list-group-flush my-3">
-                            <li class="list-group-item py-1">Strong Hands on development experience MOBILE APP using
-                                React
-                                Native</li>
-                            <li class="list-group-item py-1">Strong Hands on experience MEAN stack.
-                                (Mongo-Express-Angular-Node)</li>
-                            <li class="list-group-item py-1">Strong knowledge on SINGLE PAGE APPLICATION design
-                                using
-                                ANGULAR
-                            </li>
+                        <ul class="list-group list-group-dot my-3">
+                            <li class="list-group-item py-1">Strong Hands on development experience MOBILE APP using React Native</li>
+                            <li class="list-group-item py-1">Strong Hands on experience MEAN stack (Mongo-Express-Angular-Node)</li>
+                            <li class="list-group-item py-1">Strong knowledge on SINGLE PAGE APPLICATION design using ANGULAR</li>
                         </ul>
-                        <ul class="list-group list-group-flush my-3">
-                            <li class="list-group-item py-1">Well experienced in using version control system GIT.
-                            </li>
+                        <ul class="list-group list-group-dot my-3">
+                            <li class="list-group-item py-1">Well experienced in using version control system GIT.</li>
                             <li class="list-group-item py-1">Well experienced in using scrum tools (Jira)</li>
-                            <li class="list-group-item py-1">Well experienced in using Developer tools (VS Code,
-                                NPM,
-                                Sass,
-                                Bootstrap5, Xampp)</li>
+                            <li class="list-group-item py-1">Well experienced in using Developer tools (VS Code, NPM, Sass, Bootstrap5, Xampp)</li>
                         </ul>
                     </div>
                 </div>
                 <div id="Projects" class="projects-wrapper">
-                    <h5 class="card-header">Professional Experience - 5years 4months</h5>
-                    <div class="project-group card my-3">
+                    <div class="card card-neumorphism">
+                        <h5 class="card-header">Professional Experience - 5years 4months</h5>
+                    </div>
+                    <div class="card card-neumorphism project-group">
                         <div class="card-body">
                             <div class="row my-2 my-sm-0">
                                 <div class="col-12 col-sm-3 col-xxl-2">
@@ -226,26 +210,15 @@
                                     <div class="py-0 py-sm-1 text-muted">Responsibilities :</div>
                                 </div>
                                 <div class="col-12 col-sm-9 col-xxl-10">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item py-1">Responsible for creating the look and feel
-                                            of
-                                            the
-                                            WordPress website with responsive web development standards.</li>
-                                        <li class="list-group-item py-1">Creating a custom theme with brand style
-                                            guide
-                                            based on
-                                            underscores starter theme.</li>
-                                        <li class="list-group-item py-1">Creating reusable and custom Gutenberg
-                                            blocks
-                                            and
+                                    <ul class="list-group list-group-dot">
+                                        <li class="list-group-item py-1">Responsible for creating the look and feel of
+                                            the WordPress website with responsive web development standards.</li>
+                                        <li class="list-group-item py-1">Creating a custom theme with brand style guide based on underscores starter theme</li>
+                                        <li class="list-group-item py-1">Creating reusable and custom Gutenberg blocks and
                                             templates using ACF Pro with custom fields.</li>
-                                        <li class="list-group-item py-1">Customizing WordPress functions using
-                                            action
-                                            hooks and
+                                        <li class="list-group-item py-1">Customizing WordPress functions using action hooks and
                                             filters.</li>
-                                        <li class="list-group-item py-1">Oversee all project operations to provide
-                                            unparalleled
-                                            service to clients.</li>
+                                        <li class="list-group-item py-1">Oversee all project operations to provide unparalleled service to clients.</li>
                                     </ul>
                                 </div>
                             </div>

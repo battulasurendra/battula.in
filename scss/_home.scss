@@ -1,0 +1,29 @@
+.list-group-dot {
+    @include border-radius(0);
+    list-style-type: none;
+
+    > .list-group-item {
+        border-width: 0;
+
+        &:before {
+            @extend %fa-icon;
+            @extend .fas;
+
+            content: fa-content($fa-var-circle);
+            font-size: 0.4rem;
+            line-height: 1.5rem;
+            vertical-align: top;
+            margin-left: -1rem;
+            width: 1rem;
+        }
+    }
+}
+
+.card-neumorphism {
+    border: 1px solid rgba($neumorphism-base, 20%);
+    border-radius: 24px;
+    background: $neumorphism-base;
+    box-shadow: $neumorphism-dark-color 12px 12px 24px 0px , $neumorphism-light-color -8px -8px 16px 0px ;
+    margin: 2rem 1rem;
+    overflow: hidden;
+}

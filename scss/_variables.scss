@@ -1,0 +1,26 @@
+// Theme colors and variables
+$theme-primary-light: #8abdff;
+$theme-primary: #6d5dfc;
+$theme-primary-dark: #5b0eeb;
+$white: #FFFFFF;
+$greyLight-1: #E4EBF5;
+$greyLight-2: #c8d0e7;
+$greyLight-3: #bec8e4;
+$greyDark: #9baacf;
+
+$theme-secondary : #ffaa55;
+
+
+// Neumorphism variables
+$neumorphism-base : #E4EBF5;
+// $neumorphism-dark-color: mix($black, $neumorphism-base, 15%) !default;
+// $neumorphism-light-color : mix($white, $neumorphism-base, -7.5%) !default;
+$neumorphism-dark-color: #c8d0e7;
+$neumorphism-light-color : $white;
+
+// Overriding bootstrap variables
+$primary:   $theme-primary;
+$secondary: $theme-secondary !default;
+
+$body-bg: $neumorphism-base;
+$body-color: transparent;

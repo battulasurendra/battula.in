@@ -5,11 +5,11 @@
     "author": "Surendra Battula",
     "license": "ISC",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/battulasurendra/battula.in.git"
+        "type": "git",
+        "url": "git+https://github.com/battulasurendra/battula.in.git"
     },
     "bugs": {
-      "url": "https://github.com/battulasurendra/battula.in.git/issues"
+        "url": "https://github.com/battulasurendra/battula.in.git/issues"
     },
     "homepage": "https://battula.in",
     "scripts": {
@@ -36,6 +36,7 @@
         "Developer"
     ],
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.3",
         "@popperjs/core": "^2.9.2",
         "bootstrap": "^5.0.1"
     },
