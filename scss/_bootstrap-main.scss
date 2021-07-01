@@ -1,12 +1,7 @@
-// Required
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/mixins";
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/root";
 @import "bootstrap/scss/reboot";
 
-// Optional
 @import "bootstrap/scss/type";
 @import "bootstrap/scss/images";
 
@@ -33,10 +28,13 @@
 @import "bootstrap/scss/toasts";
 @import "bootstrap/scss/modal"; // Requires transitions
 @import "bootstrap/scss/tooltip";
-@import "bootstrap/scss/popover";
-@import "bootstrap/scss/carousel";
-@import "bootstrap/scss/spinners";
+// @import "bootstrap/scss/popover";
+// @import "bootstrap/scss/carousel";
+// @import "bootstrap/scss/spinners";
 @import "bootstrap/scss/offcanvas"; // Requires transitions
+
+// Helpers
+@import "bootstrap/scss/helpers";
 
 // Utilities
 @import "bootstrap/scss/utilities/api";

@@ -1,0 +1,165 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Theme variables
+$theme-font: "Visby Round CF", sans-serif;
+
+$theme-primary: #6d5dfc;
+$theme-primary-light: #8abdff;
+$theme-primary-dark: #5b0eeb;
+$theme-secondary: #3c4856;
+
+// Color system
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e4ebf5; // replaced with $greyLight-1
+$gray-300: #c8d0e7; // replaced with $greyLight-2
+$gray-400: #bec8e4; // replaced with $greyLight-3
+$gray-500: #92aecf; // replaced with $greyDark
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #2e3033;  // replaced with theme color
+$black: #1c1c1c; // replaced with theme color
+
+$grays: (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900,
+);
+
+// Replaced with theme colors
+$red: #ff5555;
+$orange: #ff3a00;
+$yellow: #ffaa55;
+$green: #198754;
+$cyan: #07B3F7;
+
+$colors: (
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "white": $white,
+    "black": $black,
+    "gray": $gray-600,
+    "gray-dark": $gray-800,
+);
+
+$primary: $theme-primary;
+$primary-light: $theme-primary-light;
+$primary-dark: $theme-primary-dark;
+$secondary: $theme-secondary;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+
+// variants for text and background colors
+$theme-colors: (
+    "primary": $primary,
+    "primary-light": $primary-light,
+    "primary-dark": $primary-dark,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "gray-100": $gray-100,
+    "gray-200": $gray-200,
+    "gray-300": $gray-300,
+    "gray-400": $gray-400,
+    "gray-500": $gray-500,
+    "gray-600": $gray-600,
+    "gray-700": $gray-700,
+    "gray-800": $gray-800,
+    "gray-900": $gray-900,
+);
+
+// Padding and margin sets
+$spacers: ();
+$spacers: map-merge(
+    $spacers,
+    (
+        0: 0,
+        1: $spacer / 4,
+        2: $spacer / 2,
+        3: $spacer,
+        4: $spacer * 1.5,
+        5: $spacer * 2.5,
+        6: $spacer * 3,
+        7: $spacer * 3.5,
+        8: $spacer * 4,
+        9: $spacer * 4.5,
+        10: $spacer * 5,
+    )
+);
+
+// utilities mapping
+$utilities: ();
+$utilities: map-merge(
+    (
+        "font-weight": (
+            property: font-weight,
+            class: fw,
+            values: (
+                100 : 100,
+                200 : 200,
+                300 : 300,
+                400 : 400,
+                500 : 500,
+                600 : 600,
+                700 : 700,
+                800 : 800,
+                900 : 900
+            ),
+        ),
+    ),
+    $utilities
+);
+
+// neumorphic variables
+// $neumorphic-dark-color       : mix($black, $neumorphic-base, 15%) !default;
+// $neumorphic-light-color      : mix($white, $neumorphic-base, -7.5%) !default;
+$neumorphic-base                : $gray-200;
+$neumorphic-dark-color          : $gray-300;
+$neumorphic-light-color         : $white;
+$neumorphic-shadow              : 0.2rem 0.2rem 0.5rem $neumorphic-dark-color, -0.2rem -0.2rem 0.5rem $neumorphic-light-color;
+$neumorphic-shadow-inset        : inset 0.2rem 0.2rem 0.5rem $neumorphic-dark-color, inset -0.2rem -0.2rem 0.5rem $neumorphic-light-color;
+$neumorphic-shadow-lg           : 0.75rem 0.75rem 1.5rem $neumorphic-dark-color, -0.5rem -0.5rem 1rem $neumorphic-light-color;
+$neumorphic-shadow-inset-lg     : inset 0.75rem 0.75rem 1.5rem $neumorphic-dark-color, -0.5rem -0.5rem 1rem $neumorphic-light-color;
+
+$enable-neumorphic:  true;
+$enable-shadows:    true;
+$enable-gradients:  true;
+
+$variable-prefix: sb-;
+
+// Body variables
+$body-bg: if($enable-neumorphic, $neumorphic-base, $white);
+$body-color: $theme-secondary;
+$body-font: $theme-font;
+
+// font variables
+$font-weight-base: 500;
+$headings-font-weight: 700;
+$sub-sup-font-size: 0.5rem;
+
+$list-group-bg: transparent;
+
+$progress-bg: $neumorphic-base;
+$progress-bar-bg: linear-gradient(330deg, $primary-dark 0%, $primary 50%, $primary-light 100%);
+$progress-box-shadow: $neumorphic-shadow;
+

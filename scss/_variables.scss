@@ -1,26 +1,32 @@
-// Theme colors and variables
-$theme-primary-light: #8abdff;
-$theme-primary: #6d5dfc;
-$theme-primary-dark: #5b0eeb;
-$white: #FFFFFF;
-$greyLight-1: #E4EBF5;
-$greyLight-2: #c8d0e7;
-$greyLight-3: #bec8e4;
-$greyDark: #9baacf;
+/****************** Project Sizes(WxH)(px) ******************/
+/* Standard Screen sizes
 
-$theme-secondary : #ffaa55;
+1920 x 1080 (16:9)
+1600 x 900 (16:9)
+1536 x 864 (16:9)
+1366 x 768 (16:9)
 
+1440 x 900 (8:5)
+1280 x 800 (8:5)
 
-// Neumorphism variables
-$neumorphism-base : #E4EBF5;
-// $neumorphism-dark-color: mix($black, $neumorphism-base, 15%) !default;
-// $neumorphism-light-color : mix($white, $neumorphism-base, -7.5%) !default;
-$neumorphism-dark-color: #c8d0e7;
-$neumorphism-light-color : $white;
+1024 x 768 (4:3)
 
-// Overriding bootstrap variables
-$primary:   $theme-primary;
-$secondary: $theme-secondary !default;
+768 x 1024 (3:4)
+*/
 
-$body-bg: $neumorphism-base;
-$body-color: transparent;
+/*  Banner Image sizes
+
+1920 x 1080 – (16:9) - Full width banner
+*/
+/****************** Project Sizes ******************/
+
+$theme-font : "Visby Round CF", sans-serif;
+
+$theme-primary-light:           #8abdff;
+$theme-primary:                 #6d5dfc;
+$theme-primary-dark:            #5b0eeb;
+$theme-secondary :              #3C4856;
+$greyLight-1:                   #E4EBF5;
+$greyLight-2:                   #c8d0e7;
+$greyLight-3:                   #bec8e4;
+$greyDark:                      #92AECF;

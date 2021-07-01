@@ -16,32 +16,37 @@
 </head>
 
 <body>
-    <div class="container">
+    <section class="container-fluid" id="neumorphic-sec">
         <div class="row my-2 my-sm-0 gx-0">
-            <div class="col-12 col-md-6 col-lg-5 col-xl-4 col-xxl-3">
-                <div id="profile-card" class="card card-neumorphism">
+            <div id="aside" class="col-12 col-md-6 col-lg-5 col-xl-4 col-xxl-3" role="complementary">
+                <div id="profile-card" class="card card-neumorphic">
+                    <div class="card-body text-center">
+                        <div id="profile-image" class="profileRow1 col-sm-7 col-10 mx-auto rounded-circle my-3">
+                            <img src="./assets/images/smileys_sqare.jpg" class="rounded-circle img-fluid">
+                        </div>
+                        <div class="profileRow2 ">
+                            <h2 id="name">Surendra Battula</h2>
+                            <h5 id="designation">Senior UI Developer</h5>
+                        </div>
+                        <!-- <h6 id="education" class="fw-600"><i class="fas fa-graduation-cap fa-fw me-1"></i>B.Tech, JNTU Kakinada, AP.</h6> -->
+                        <hr class="m-3 rounded-circle" style="height: 2px;">
+                        <div class="d-flex profileRow3">
+                            <h6 id="experience" class="col-12 col-md-6 fw-600 m-0 py-2"><i class="fas fa-business-time fa-fw me-1"></i> 5<sup class="fs-5 top-0">+</sup> years</h6>
+                            <h6 id="location" class="col-12 col-md-6 fw-600 m-0 py-2"><i class="fas fa-map-marker-alt fa-fw me-1"></i>Hyderabad</h6>
+                        </div>
+                    </div>
+                </div>  
+                <div id="contact-details" class="card card-neumorphic">
+                    <h5 class="card-header">Contact</h5>
                     <div class="card-body">
-                        <h2 id="name">Surendra Battula</h2>
-                        <h6 id="designation">Senior UI Developer</h6>
-                        <h6 id="education"><i class="fas fa-graduation-cap fa-fw me-1"></i>B.Tech, JNTU Kakinada, AP.</h6>
-                        <h6 id="location"><i class="fas fa-map-marker-alt fa-fw me-1"></i>Hyderabad</h6>
-                        <p id="summary" class="small text-muted">
-                            I am an experienced passionate developer with proven technical skills who strives for perfection with strong focus, responsibility, hardworking and to utilize the experience and skills obtained in the best possible way for achieving the company’s goal.
-                        </p>
+                        <a class="btn-link my-1 d-block text-truncate text-decoration-none"
+                            href="mailto:battulasurendra407@gmail.com"><i class="fas fa-at fa-fw me-1"></i> battulasurendra407<sub class="bottom-0">@gmail.com</sub></a>
+                        <a class="btn-link my-1 d-block text-truncate text-decoration-none" href="tel:+919704670707"><i class="fas fa-mobile-alt fa-fw me-1"></i>+91 9704670707</a>
+                        <a class="btn-link my-1 d-block text-truncate text-decoration-none" href="https://linkedin.com/in/surendra-battula"
+                            target="_blank"><i class="fab fa-linkedin-in fa-fw me-1"></i> <sub class="bottom-0">linkedin.com/in/</sub>Surendra-battula</a>
                     </div>
                 </div>
-                        
-                <div id="contact-details" class="card card-neumorphism">
-                    <h5 class="card-header">Contact Details</h5>
-                    <div class="card-body">
-                        <a class="btn-link my-1 d-inline-block text-decoration-none"
-                            href="mailto:battulasurendra407@gmail.com"><i class="fas fa-at fa-fw me-1"></i> battulasurendra407@gmail.com</a>
-                        <a class="btn-link my-1 d-inline-block text-decoration-none" href="tel:+919704670707"><i class="fas fa-phone-alt fa-fw me-1"></i>+91 9704670707</a>
-                        <a class="btn-link my-1 d-inline-block text-decoration-none" href="https://linkedin.com/in/surendra-battula"
-                            target="_blank"><i class="fab fa-linkedin fa-fw me-1"></i> linkedin.com/in/surendra-battula/</a>
-                    </div>
-                </div>
-                <div id="primary-skills" class="card card-neumorphism">
+                <div id="primary-skills" class="card card-neumorphic">
                     <h5 class="card-header">Primary Skills</h5>
                     <div class="card-body">
                         <div class="skills-wrapper my-3">
@@ -69,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="secondary-skills" class="card card-neumorphism">
+                <div id="secondary-skills" class="card card-neumorphic">
                     <h5 class="card-header">Technical Skills</h5>
                     <div class="card-body">
                         <div class="skills-wrapper my-3">
@@ -111,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="career-footprints" class="card card-neumorphism">
+                <div id="career-footprints" class="card card-neumorphic">
                     <h5 class="card-header">Career Footprints</h5>
                     <div class="card-body">
                         <div class="">
@@ -145,8 +150,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-7 col-xl-8 col-xxl-9">
-                <div id="overview" class="card card-neumorphism">
+            <div id="main" class="col-12 col-md-6 col-lg-7 col-xl-8 col-xxl-9" role="main">
+                <div id="overview" class="card card-neumorphic">
                     <h5 class="card-header">Overview</h5>
                     <div class="card-body">
                         <ul class="list-group list-group-dot my-3">
@@ -168,14 +173,14 @@
                     </div>
                 </div>
                 <div id="Projects" class="projects-wrapper">
-                    <div class="card card-neumorphism">
+                    <div class="card card-neumorphic">
                         <h5 class="card-header">Professional Experience - 5years 4months</h5>
                     </div>
-                    <div class="card card-neumorphism project-group">
+                    <div class="card card-neumorphic project-group">
                         <div class="card-body">
                             <div class="row my-2 my-sm-0">
                                 <div class="col-12 col-sm-3 col-xxl-2">
-                                    <div class="py-0 py-sm-1 text-muted">Client :</div>
+                                    <div class="py-0 py-sm-1 text-muted fw-600">Client :</div>
                                 </div>
                                 <div class="col-12 col-sm-9 col-xxl-10">
                                     <div class="py-0 py-sm-1">GXO Logistics, Mar 2021 – Till date</div>
@@ -183,7 +188,7 @@
                             </div>
                             <div class="row my-2 my-sm-0">
                                 <div class="col-12 col-sm-3 col-xxl-2">
-                                    <div class="py-0 py-sm-1 text-muted">Product :</div>
+                                    <div class="py-0 py-sm-1 text-muted fw-600">Product :</div>
                                 </div>
                                 <div class="col-12 col-sm-9 col-xxl-10">
                                     <div class="py-0 py-sm-1">Websites for branding, ethics & internal tools</div>
@@ -191,7 +196,7 @@
                             </div>
                             <div class="row my-2 my-sm-0">
                                 <div class="col-12 col-sm-3 col-xxl-2">
-                                    <div class="py-0 py-sm-1 text-muted">Role :</div>
+                                    <div class="py-0 py-sm-1 text-muted fw-600">Role :</div>
                                 </div>
                                 <div class="col-12 col-sm-9 col-xxl-10">
                                     <div class="py-0 py-sm-1">Senior UI Developer</div>
@@ -199,7 +204,7 @@
                             </div>
                             <div class="row my-2 my-sm-0">
                                 <div class="col-12 col-sm-3 col-xxl-2">
-                                    <div class="py-0 py-sm-1 text-muted">Tech Stack :</div>
+                                    <div class="py-0 py-sm-1 text-muted fw-600">Tech Stack :</div>
                                 </div>
                                 <div class="col-12 col-sm-9 col-xxl-10">
                                     <div class="py-0 py-sm-1">WordPress – PHP - JavaScript – SCSS</div>
@@ -207,7 +212,7 @@
                             </div>
                             <div class="row my-2 my-sm-0">
                                 <div class="col-12 col-sm-3 col-xxl-2">
-                                    <div class="py-0 py-sm-1 text-muted">Responsibilities :</div>
+                                    <div class="py-0 py-sm-1 text-muted fw-600">Responsibilities :</div>
                                 </div>
                                 <div class="col-12 col-sm-9 col-xxl-10">
                                     <ul class="list-group list-group-dot">
@@ -227,7 +232,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 <script type="module" src="assets/js/custom.js"></script>
 

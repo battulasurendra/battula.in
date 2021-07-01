@@ -1,0 +1,12 @@
+body {
+    font-family: $body-font;
+}
+
+h6 {
+    font-weight: 600;
+}
+
+.progress-bar {
+    background: $progress-bar-bg;
+    @include border-radius($progress-border-radius);
+}
