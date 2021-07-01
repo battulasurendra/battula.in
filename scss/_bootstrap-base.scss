@@ -138,6 +138,8 @@ $neumorphic-dark-color          : $gray-300;
 $neumorphic-light-color         : $white;
 $neumorphic-shadow              : 0.2rem 0.2rem 0.5rem $neumorphic-dark-color, -0.2rem -0.2rem 0.5rem $neumorphic-light-color;
 $neumorphic-shadow-inset        : inset 0.2rem 0.2rem 0.5rem $neumorphic-dark-color, inset -0.2rem -0.2rem 0.5rem $neumorphic-light-color;
+$neumorphic-shadow-xs           : 2px 2px 5px $neumorphic-dark-color, -3px -3px 7px $neumorphic-light-color;
+$neumorphic-shadow-inset-xs     : inset 2px 2px 5px $neumorphic-dark-color, inset -3px -3px 7px $neumorphic-light-color;
 $neumorphic-shadow-lg           : 0.75rem 0.75rem 1.5rem $neumorphic-dark-color, -0.5rem -0.5rem 1rem $neumorphic-light-color;
 $neumorphic-shadow-inset-lg     : inset 0.75rem 0.75rem 1.5rem $neumorphic-dark-color, -0.5rem -0.5rem 1rem $neumorphic-light-color;
 

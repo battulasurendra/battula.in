@@ -83,3 +83,36 @@
         opacity: 0.25;
     }
 }
+
+.project-wrapper {
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: $neumorphic-shadow-inset;
+    border: 1px solid rgba($neumorphic-base, 20%);
+    position: relative;
+
+    &::before,
+    &::after {
+        content: '';
+        width: 0.875rem;
+        height: 0.875rem;
+        box-shadow : $neumorphic-shadow-inset-xs;
+        border: 1px solid rgba($neumorphic-base, 20%);
+        border-radius: 50%;
+        position: absolute;
+        top: -0.5rem;
+        left: -1.9375rem;
+        right: auto;
+        bottom: auto;
+    }
+
+    &::after{
+        width: .375rem;
+        height: auto;
+        border-radius: 2rem;
+        top: 1.5rem;
+        bottom: 0;
+        left: -1.6875rem;
+    }
+}
